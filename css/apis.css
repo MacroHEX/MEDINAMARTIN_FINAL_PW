@@ -1,0 +1,67 @@
+/* Fondo mejorado */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    color: #333;
+    background-color: #b7ffaf;
+    margin: 0;
+    padding: 0;
+}
+
+nav > button {
+    background-color: #00b354;
+}
+
+nav > button:hover {
+    background-color: #0d8143;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#emailForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #00b3ad;
+    text-align: center;
+}
+
+input, textarea, button {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #00b354;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #007f1e;
+}
+

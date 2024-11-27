@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Operaciones</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+<div class="container">
+    <nav>
+        <button onclick="navigateTo('main.html')">Página Principal</button>
+        <button onclick="navigateTo('apis.html')">APIs</button>
+        <button onclick="navigateTo('form.html')">Formulario</button>
+        <button onclick="navigateTo('table.html')">Tabla</button>
+    </nav>
+    <h1>Operaciones</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+            <tr>
+                <th>Operación</th>
+                <th>Descripción</th>
+                <th>Botones</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>TOTAL PRODUCTO</td>
+                <td>Calcular el precio por la cantidad</td>
+                <td>
+                    <button onclick="calculateTotal()">Calcular</button>
+                </td>
+            </tr>
+            <tr>
+                <td>PORCENTAJE</td>
+                <td>Calcula el 30% de precio</td>
+                <td>
+                    <button onclick="calculatePercentage()">Calcular</button>
+                </td>
+            </tr>
+            <tr>
+                <td>DESCUENTO</td>
+                <td>Calcula el 25% de descuento de un precio por la cantidad</td>
+                <td>
+                    <button onclick="calculateDiscount()">Calcular</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="js/table.js"></script>
+</body>
+</html>

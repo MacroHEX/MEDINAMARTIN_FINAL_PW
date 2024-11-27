@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/apis.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <button onclick="navigateTo('main.html')">Página Principal</button>
+        <button onclick="navigateTo('apis.html')">APIs</button>
+        <button onclick="navigateTo('form.html')">Formulario</button>
+        <button onclick="navigateTo('table.html')">Tabla</button>
+    </nav>
+    <h1>Página Principal</h1>
+
+    <!-- API 1: Enviar correo -->
+    <section>
+        <h2>Enviar un correo</h2>
+        <form id="emailForm">
+            <label for="email"></label><input type="email" id="email" placeholder="Correo electrónico" required>
+            <label for="name"></label><input type="text" id="name" placeholder="Nombre" required>
+            <label for="subject"></label><input type="text" id="subject" placeholder="Asunto" required>
+            <label for="message"></label><textarea id="message" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="emailResponse"></p>
+    </section>
+
+    <!-- API 2: Ver imágenes aleatorias -->
+    <section>
+        <h2>Imágenes Aleatorias</h2>
+        <button id="fetchImages">Ver Imagen</button>
+        <div id="imageContainer"></div>
+    </section>
+
+    <!-- API 3: Frases -->
+    <section>
+        <h2>Frase del Día</h2>
+        <button id="fetchQuotes">Ver Frase del Día</button>
+        <p id="quote"></p>
+    </section>
+</div>
+<script src="js/apis.js"></script>
+</body>
+</html>

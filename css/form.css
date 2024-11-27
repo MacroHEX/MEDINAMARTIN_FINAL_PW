@@ -1,0 +1,42 @@
+/* Fondo mejorado */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/mirrored-squares.png') repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav > button {
+    background-color: #b37400;
+}
+
+nav > button:hover {
+    background-color: #81580d;
+}
+
+h1, h2 {
+    color: #b34b00;
+    text-align: center;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #b36500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #7f4000;
+}
+

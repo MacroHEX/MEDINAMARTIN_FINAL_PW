@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Página Principal</h1>
+    <h2> ¡Bienvenido! </h2>
+    <h3 id="mensaje-bienvenida">Hola. Gracias por visitarnos.</h3>
+    <p> Usa los botones para explorar las demás páginas:</p>
+    <ul>
+        <li>
+            1. Pagina Principal
+            <ul>
+                <li>Inicio de la pagina con botones de direccion a todo el sitio</li>
+            </ul>
+        </li>
+        <li>
+            2. APIs
+            <ul>
+                <li>Pagina con 3 APIs para interactuar</li>
+            </ul>
+        </li>
+        <li>
+            3. Formulario
+            <ul>
+                <li>Pagina para completar un formulario</li>
+            </ul>
+        </li>
+        <li>
+            4. Operaciones
+            <ul>
+                <li>Pagina con una tabla con diversas operaciones</li>
+            </ul>
+        </li>
+    </ul>
+    <nav>
+        <button onclick="navigateTo('main.html')">Página Principal</button>
+        <button onclick="navigateTo('apis.html')">APIs</button>
+        <button onclick="navigateTo('form.html')">Formulario</button>
+        <button onclick="navigateTo('table.html')">Tabla</button>
+    </nav>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

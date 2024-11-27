@@ -1,0 +1,81 @@
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
+}
+
+/* Título */
+h1 {
+    color: #1565c0;
+}
+
+/* Botones de navegación */
+button {
+    background: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background: #0d47a1;
+    transform: scale(1.1);
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+th {
+    background-color: #1565c0;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+th:hover {
+    background-color: #0d47a1;
+}
+
+/* Celdas */
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Animación de fila al pasar el cursor */
+tbody tr:hover {
+    background-color: #f0f4ff;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Botones en las celdas */
+td button {
+    background: #1e88e5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+td button:hover {
+    background: #1565c0;
+    transform: scale(1.1);
+}
